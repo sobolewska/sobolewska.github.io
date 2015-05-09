@@ -10,7 +10,7 @@ title: Categories - automation@sobolewska
      <span class="tags">
 	 {% assign sortedcat = site.categories | sort %}
      {% for category in sortedcat %}
-       <a href="/categories/{{ category | first | slugize }}" style="margin-left: 0.1em; margin-right: 0.1em;">{{ category | first }}&nbsp;(number&nbsp;of&nbsp;posts:&nbsp;{{ category | last | size }}) </a>
+       <a href="/categories/{{ category | first | slugize }}" style="margin-left: 0.1em; margin-right: 0.1em;">{{ category | first }}&nbsp;(number&nbsp;of&nbsp;posts:&nbsp;{{ category | last | size }})</a> 
      {% endfor %}
 	 </span>
 </p>
