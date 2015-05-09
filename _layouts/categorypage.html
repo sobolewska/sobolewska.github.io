@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="post">
+
+<h1 class="pageTitle">Post of {{ page.category }} category</h1>
+
+<p>
+{% for post in site.categories[page.category] %}
+    <a href="{{ post.url }}">{{ post.title }}</a><br/>
+	<span class="posts-list-details">
+	<span class="tags">
+	{% assign sortedpostcat = post.categories | sort %}
+	{% for cat in sortedpostcat %}
+		<a href="/categories/{{ cat }}">{{ cat }}</a> 
+	{% endfor %}
+	</span>
+	{{ post.date | date: "%B %d, %Y" }}
+	</span>
+	<br/>
+{% endfor %}
+</p>
+
+</div>
