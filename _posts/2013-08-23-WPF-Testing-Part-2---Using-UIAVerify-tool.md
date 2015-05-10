@@ -2,7 +2,7 @@
 layout: post
 title:  "WPF Testing Part 2 – Using UIAVerify tool"
 date:   2013-08-23
-categories: uiverify
+categories: uiaverify
 ---
 
 Download the <a href="http://uiautomationverify.codeplex.com/" target="_blank">UIAVerify</a> and unpack. To launch the tool use **VisualUIAVerify.exe**.
