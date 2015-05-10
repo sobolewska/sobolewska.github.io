@@ -158,5 +158,5 @@ All should work, in my example: one test should pass, one test should fail and s
 
 <figure>
 	<img src="{{ '/assets/img/selenium_jmeter_jmeter.png' | prepend: site.baseurl }}" alt=""> 
-	<figcaption>Fig2. - Selenium under JMeter run - results.</figcaption>
+	<figcaption>Fig3. - Selenium under JMeter run - results.</figcaption>
 </figure>
