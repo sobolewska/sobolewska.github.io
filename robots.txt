@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /_includes/
+Disallow: /_layouts/
+Disallow: /_sass/
+Disallow: /assets/
+Disallow: /css/
+Disallow: /_config.yml
+Disallow: /CNAME
+Disallow: /config.rb
+Disallow: /params.json
