@@ -9,7 +9,12 @@ In the beginning I recommend to go through <a href="http://msdn.microsoft.com/en
 
 But if you want you can go straight to my example test project – <a href="https://github.com/sobolewska/CalcWpfNunitTests/archive/master.zip" target="_blank">download it here</a> or git clone form here: https://github.com/sobolewska/CalcWpfNunitTests.git and open it in Visual Studio (it includes the test app).
 
-I started with creating new **Visual C# Console Application** solution – **CalcWpfNunitTests**. I added second project to existing solution – **RunTests**. Then, as you can see, I added bunch of References to **CalcWpfNunitTests** project. I also set the RunTests project as the single startup project in solution properties.
+I started with creating new **Visual C# Console Application** solution – **CalcWpfNunitTests**. I added second project to existing solution – **RunTests**. Then, as you can see, I added bunch of needed references to **CalcWpfNunitTests** project. I also set the **RunTests** project as the single startup project in solution properties.
+
+<figure>
+	<img src="{{ '/assets/img/LearningWPF_4.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Fig1. - References of CalcWpfNunitTests.</figcaption>
+</figure>
 
 I won’t describe how to use C# UIAutomatioin, as there are a lot of tutorials online (for example the one that I mentioned in the beginning of this post), instead, I will just highlight couple of worth mentioning things here. I tried to left many comments in the code, for it to be self-explanatory, so you can go straight to the code if you prefer code-reading style of learning.
 

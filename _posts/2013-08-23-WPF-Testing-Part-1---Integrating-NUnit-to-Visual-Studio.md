@@ -11,7 +11,12 @@ But if you prefer Nunit GUI, you can use following solution to set up starting t
 
 Open Visual Studio and go to **Tools -&gt; External Tools** (if you don’t see this menu enable it in **Tools -&gt; Settings -&gt; Expert Settings**).
 
-Add new external tool and name it NUinit. Set Command to path to **nunit.exe**, Arguments to **$(TargetName)$(TargetExt)**, Initail directory to **$(ProjectDir)\bin\Debug**. Notice that NUnit is 6th tool on the list on above screenshot, remember the position in which the added tool is in your case – you will need it in a moment.
+Add new external tool and name it NUinit. Set Command to path to **nunit.exe**, Arguments to **$(TargetName)$(TargetExt)**, Initail directory to **$(ProjectDir)\bin\Debug**. Notice that NUnit is 6th tool on the list on below screenshot, remember the position in which the added tool is in your case – you will need it in a moment.
+
+<figure>
+	<img src="{{ '/assets/img/LearningWPF_1.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Fig1. - Visual Studio External Tools.</figcaption>
+</figure>
 
 Now add this external tool to a tool bar. To do so – go to **View -&gt; Toolbars -&gt; Customize**. Add new toolbar, name it for example NUnit Tools. Switch to **Commands tab**, mark **Toolbar** radio button, select **NUnit Tools** and click **Add Command...**, as category select **Tools** and as command select **External Command 6** (use the remembered position of NUint from External Tools list). Click OK and Close.
 

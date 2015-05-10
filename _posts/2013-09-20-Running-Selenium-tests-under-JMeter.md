@@ -116,7 +116,17 @@ Save the file as **config.txt**. In this file we once again set the port to 5555
 
 Now we can start selenium server by just prepared **start-selenium-server.bat** file.
 
+<figure>
+	<img src="{{ '/assets/img/selenium_jmeter_selenium-server_1.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Fig1. - Result of running start-selenium-server.bat.</figcaption>
+</figure>
+
 We can check whether it works by entering page: <a href="http://localhost:4444/wd/" target="_blank">http://localhost:4444/wd/</a>.
+
+<figure>
+	<img src="{{ '/assets/img/selenium_jmeter_selenium-server_2.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Fig2. - Selenium server.</figcaption>
+</figure>
 
 Now we can check, whether our tests are working, by running them form eclipse. In my example project – one test should pass and one should fail and save screenshot. I left code showing how to start selenium-server automatically from code, but as in JMeter it would be called for every thread and loop, we need to start in manually.
 
@@ -145,3 +155,8 @@ Add some listener (for example **View Results Tree**), make sure that selenium-s
 You can run up to 30 threads, as set in **config.txt** file, but you can increase it if you want, just mind your machine and connection efficiency.
 
 All should work, in my example: one test should pass, one test should fail and save screenshot.
+
+<figure>
+	<img src="{{ '/assets/img/selenium_jmeter_jmeter.png' | prepend: site.baseurl }}" alt=""> 
+	<figcaption>Fig2. - Selenium under JMeter run - results.</figcaption>
+</figure>
