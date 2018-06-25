@@ -19,6 +19,5 @@ title: Contact Me - automation@sobolewska
     <input type="submit" value="Send" class="button">
 	<input type="hidden" name="_subject" value="Contact from automation@sobolewska" />
 	<input type="hidden" name="_next" value="/thanks" />
-  </form>
 </div>
 
