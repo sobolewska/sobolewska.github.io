@@ -11,9 +11,9 @@ categories: about
 	<p>I hope you have found something interesting on my blog.</p>
 	<a name="notice"></a><h2>Notice</h2>
 	<ul>
-	<li>English is NOT my native language, so in case of noticing any kind of spelling, grammar, etc. errors – please <a href="/contact.html">let me know about it.</a></li>
+	<li>English is NOT my native language, so in case of noticing any kind of spelling, grammar, etc. errors – please <a href="/contact">let me know about it.</a></li>
 	<li>If my solution is badly written, not optimal, old, bad, not working, etc. – please leave a comment with an explanation why it is bad, maybe give a better solution and explain why it is better, so me and others would learn how to do it better in the future.</li>
-	<li>If you are the author of a solution and I did not point it in the text with a link or your name – please <a href="/contact.html">contact me</a>, after confirming that you are indeed the author – I will add a proper annotation.</li>
-	<li>If you are the author of a solution and you don’t agree for it to be on my blog – please <a href="/contact.html">contact me</a>, I will remove your solution from my blog.</li>
+	<li>If you are the author of a solution and I did not point it in the text with a link or your name – please <a href="/contact">contact me</a>, after confirming that you are indeed the author – I will add a proper annotation.</li>
+	<li>If you are the author of a solution and you don’t agree for it to be on my blog – please <a href="/contact">contact me</a>, I will remove your solution from my blog.</li>
 	</ul>
 </div>
