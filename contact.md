@@ -10,6 +10,7 @@ title: Contact Me - automation@sobolewska
   </div>
   <!-- http://rot13.de/index.php -->
   <script type="text/javascript">document.write("<sbez npgvba=\"uggc://sbezfcerr.vb/cbfgznfgre@fbobyrjfxn.vg\" zrgubq=\"CBFG\">".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));</script>
+  <form action="https://formspree.io/your@email.com" method="POST">
     <label for="name">Name</label>    
     <input type="text" id="name" name="name" class="full-width"><br>
     <label for="email">Email Address</label>
@@ -17,7 +18,8 @@ title: Contact Me - automation@sobolewska
     <label for="message">Message</label>
     <textarea name="message" id="message" cols="30" rows="10" class="full-width"></textarea><br>
     <input type="submit" value="Send" class="button">
-	<input type="hidden" name="_subject" value="Contact from automation@sobolewska" />
-	<input type="hidden" name="_next" value="/thanks" />
+    <input type="hidden" name="_subject" value="Contact from automation@sobolewska" />
+    <input type="hidden" name="_next" value="/thanks" />
+  </form>
 </div>
 
