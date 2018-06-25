@@ -10,7 +10,7 @@ title: Contact Me - automation@sobolewska
   </div>
   <!-- http://rot13.de/index.php -->
   <script type="text/javascript">document.write("<sbez npgvba=\"uggc://sbezfcerr.vb/cbfgznfgre@fbobyrjfxn.vg\" zrgubq=\"CBFG\">".replace(/[a-zA-Z]/g, function(c){return String.fromCharCode((c<="Z"?90:122)>=(c=c.charCodeAt(0)+13)?c:c-26);}));</script>
-  <form action="https://formspree.io/your@email.com" method="POST">
+  <form action="https://formspree.io/postmaster@sobolewska.it" method="POST">
     <label for="name">Name</label>    
     <input type="text" id="name" name="name" class="full-width"><br>
     <label for="email">Email Address</label>
