@@ -13,11 +13,11 @@ paginate: 5
 
 navigation:
  - title: Home
-   url: /index.html
+   url: /index
  - title: About
-   url: /about.html
+   url: /about
  - title: Contact
-   url: /contact.html
+   url: /contact
 
 social:
    github: sobolewska
